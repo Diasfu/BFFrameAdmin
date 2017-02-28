@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BFFrameAdmin</string>
+    <string name="admin_login"><u>Login:</u></string>
+    <string name="user_name">User Name:</string>
+    <string name="user_password">User Password:</string>
+</resources>
