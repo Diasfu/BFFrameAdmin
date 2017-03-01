@@ -28,13 +28,26 @@
         android:paddingTop="20dp"
         android:text="@string/user_name"/>
     <EditText
+        android:id="@+id/loginUserName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:id="@+id/loginUserName"/>
+        />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="20dp"
         android:text="@string/user_password"/>
+    <EditText
+        android:id="@+id/loginUserPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        />
+    <ImageButton
+        android:onClick="onClick_Login_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:src="@drawable/ic_send_black_48dp"/>
 </LinearLayout>
