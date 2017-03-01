@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".OptionsInitialPage" />
-        <activity android:name=".AddAnimal"></activity>
+        <activity android:name=".AddAnimal" />
+        <activity android:name=".EditAnimalList"></activity>
     </application>
 
 </manifest>

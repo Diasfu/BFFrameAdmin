@@ -15,4 +15,13 @@
     <string name="female">Female: </string>
     <string name="aminals_description">Description..</string>
     <string name="save">Save</string>
+    <string name="additional_options">Tick up to 3 additional boxes bellow if the animal is not suitable to be homed with the following:</string>
+    <string name="no_dogs">No Dogs</string>
+    <string name="no_cats">No Cats</string>
+    <string name="no_other_animals">No Other Animals</string>
+    <string name="no_kids_under">No Kids Under 12</string>
+    <string name="requieres_vet_visits">Requieres Vet Visits</string>
+
+    <string name="animal_name_example"><u>Fluffy</u></string>
+    <string name="underline">___________________________________________________</string>
 </resources>

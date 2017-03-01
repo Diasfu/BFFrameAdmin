@@ -14,8 +14,22 @@ public class OptionsInitialPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_options_initial_page);
     }
+
+    //add an Animal
     public void onClickAddAnimal(View view){
         Intent intent = new Intent(this, AddAnimal.class);
         startActivity(intent);
     }
+
+    //edit/remove animals
+    public void onClickEditAnimal(View view){
+        Intent intent = new Intent(this, EditAnimalList.class);
+        startActivity(intent);
+    }
+    //logout
+    public void onClickLogout(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
 }
